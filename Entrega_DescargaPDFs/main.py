@@ -63,7 +63,7 @@ moodlecookie=respuesta.headers['Set-Cookie'].split(';')[0]
 metodo = 'POST'
 #Enviamos tambien la cookie
 cabeceras= {'Host':uri.split('/')[2], 'Content-Type': 'application/x-www-form-urlencoded','Cookie': moodlecookie}
-cuerpo= {'logintoken': logintoken, 'username': "958517", 'password' : "asdasd-123"}
+cuerpo= {'logintoken': logintoken, 'username': "XXXX", 'password' : "XXXX"}
 respuesta = requests.request(metodo, uri, data=cuerpo,headers=cabeceras, allow_redirects=False)
 moodlecookie=respuesta.headers['Set-Cookie'].split(';')[0]#Obtenemos la nueva cookie
 #Redireccion a otra pagina
