@@ -1,6 +1,6 @@
 '''
 ####################################################################################################
-# Alumno: Kepa Reche Urrutia                                                                       #
+# Alumno: Reche20                                                                      #
 #Tarea: Cliente web que descarga a una carpeta del ordenador los PDF de la asignatura Sistemas Web #
 ####################################################################################################
 '''
